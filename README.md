@@ -34,6 +34,30 @@ This project is currently in the planning phase. Implementation will begin once 
 
 Contributions are welcome! Please read the [contributing guidelines](CONTRIBUTING.md) before submitting a pull request.
 
+### Commit Guidelines
+
+This project follows [Conventional Commits](https://www.conventionalcommits.org/) to automate versioning and changelog generation. All commits must follow this format:
+
+```
+<type>[optional scope]: <description>
+
+[optional body]
+
+[optional footer(s)]
+```
+
+Types include:
+- `feat`: A new feature
+- `fix`: A bug fix
+- `docs`: Documentation changes
+- `style`: Code style changes (formatting, etc)
+- `refactor`: Code changes that neither fix bugs nor add features
+- `perf`: Performance improvements
+- `test`: Adding or updating tests
+- `chore`: Routine tasks, maintenance, etc.
+
+Breaking changes must be indicated with `!` or `BREAKING CHANGE:` in the footer.
+
 ## License
 
 [MIT](LICENSE) 
