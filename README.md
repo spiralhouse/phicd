@@ -60,4 +60,52 @@ Breaking changes must be indicated with `!` or `BREAKING CHANGE:` in the footer.
 
 ## License
 
-[MIT](LICENSE) 
+[MIT](LICENSE)
+
+## Development Setup
+
+### Prerequisites
+- Node.js v18 or later
+- npm v7 or later
+
+### Installation
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+   This will automatically set up Git hooks for commit message validation.
+
+### Git Hooks
+This project uses Git hooks to ensure code quality and consistency:
+
+- **commit-msg**: Validates commit messages follow the [Conventional Commits](https://www.conventionalcommits.org/) specification
+  - Subject line must be 72 characters or less
+  - Body lines must be 100 characters or less
+  - Must use valid commit types (feat, fix, docs, style, refactor, test, chore)
+
+To bypass hooks in exceptional cases (not recommended), use:
+```bash
+git commit --no-verify -m "your message"
+```
+
+### Commit Message Format
+```
+<type>(<scope>): <subject>
+
+<body>
+
+<footer>
+```
+
+Example:
+```
+feat(api): add endpoint for deployment status
+
+Add new REST endpoint for querying deployment status across
+multiple clusters. Includes support for filtering and sorting.
+
+Closes #123
+```
+
+For more details, see our [contribution guidelines](docs/CONTRIBUTING.md). 
