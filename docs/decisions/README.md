@@ -32,8 +32,8 @@ Each ADR follows this template:
 ## ADR Index
 
 - [ADR-0001: Record Architecture Decisions](adr-0001-record-architecture-decisions.md)
-- [ADR-0002: TBD](adr-0002-tbd.md)
-```
+- [ADR-0002: Use Conventional Commits](adr-0002-conventional-commits.md)
+- [ADR-0003: Open Source Licensing Model](adr-0003-open-source-license.md)
 
 ## How to Create a New ADR
 
