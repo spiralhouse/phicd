@@ -35,6 +35,8 @@ Each ADR follows this template:
 - [ADR-0002: Use Conventional Commits](adr-0002-conventional-commits.md)
 - [ADR-0003: Open Source Licensing Model](adr-0003-open-source-license.md)
 
+=======
+
 ## How to Create a New ADR
 
 1. Create a new file in this directory with the name `adr-NNNN-title.md`, where `NNNN` is the next available ADR number and `title` is a short hyphenated name.
