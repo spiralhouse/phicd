@@ -35,6 +35,7 @@ Each ADR follows this template:
 - [ADR-0002: Use Conventional Commits](adr-0002-conventional-commits.md)
 - [ADR-0003: Open Source Licensing Model](adr-0003-open-source-license.md)
 - [ADR-0004: Programming Language and Framework Selection](adr-0004-programming-language-and-framework.md)
+- [ADR-0005: Frontend Architecture Selection](adr-0005-frontend-architecture.md)
 
 ## How to Create a New ADR
 
