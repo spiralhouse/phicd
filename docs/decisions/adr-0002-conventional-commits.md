@@ -1,7 +1,7 @@
 # ADR-0002: Use Conventional Commits
 
 ## Status
-Proposed
+Accepted
 
 ## Context
 As our deployment system grows, we need a standardized commit message structure to:
