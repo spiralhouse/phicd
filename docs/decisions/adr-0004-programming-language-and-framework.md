@@ -16,7 +16,7 @@ The deployment system needs to be built with a programming language and framewor
 - Active community and long-term support
 
 ## Decision
-We will use **Rust** as our primary programming language with the following core framework stack:
+We will use **Rust** as our primary programming language for backend components with the following core framework stack:
 
 - **Tokio**: Async runtime for concurrent operations
 - **Axum**: Web framework for API development
@@ -24,6 +24,8 @@ We will use **Rust** as our primary programming language with the following core
 - **Serde**: Serialization/deserialization
 - **Tracing**: Observability and logging
 - **Clap**: Command-line argument parsing
+
+Note: The frontend architecture and technology stack will be addressed in a separate ADR (ADR-0005), as we have decided to adopt a service-oriented architecture with separate frontend and backend services.
 
 ## Rationale for Rust
 
@@ -129,7 +131,7 @@ Cons:
 - May need to hire Rust developers
 
 ## Compliance
-- All new code must be written in Rust
+- All backend code must be written in Rust
 - Dependencies must be managed through Cargo
 - Regular security audits of dependencies
 - Performance benchmarks for critical paths
