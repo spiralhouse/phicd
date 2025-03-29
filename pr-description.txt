@@ -1,0 +1,25 @@
+# Service Overview Prototype
+
+This PR implements a minimal service overview interface using Next.js and TailwindCSS.
+
+## Features
+- Grid view of all services with status indicators
+- Search functionality to filter services by name, description, or team
+- Toggle between grid and list view (list view to be implemented)
+- Service cards showing deployment status across environments
+- Action menu with deploy option
+
+## Implementation Details
+- Built with Next.js 14 and TailwindCSS
+- Uses Radix UI for accessible UI components
+- Mock service data for demonstration purposes
+
+## Future Improvements
+- Implement list view
+- Add real data via API integration
+- Add deployment functionality
+- Implement service detail views
+- Add filtering by status, team, etc.
+
+## Screenshots
+[Screenshots to be added]
