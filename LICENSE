@@ -1,9 +1,9 @@
-GNU AFFERO GENERAL PUBLIC LICENSE VERSION 3
+APACHE LICENSE 2.0
 with COMMONS CLAUSE
 
-All rights to the Deployment System are licensed under the terms of the GNU Affero General Public License version 3 (AGPL-3.0) as published by the Free Software Foundation, with the additional restrictions of the Commons Clause.
+All rights to the Deployment System are licensed under the terms of the Apache License, Version 2.0 (the "License") as published by the Apache Software Foundation, with the additional restrictions of the Commons Clause.
 
-The full text of the AGPL-3.0 can be found at: https://www.gnu.org/licenses/agpl-3.0.en.html
+The full text of the Apache License 2.0 can be found at: https://www.apache.org/licenses/LICENSE-2.0
 
 "Commons Clause" License Condition v1.0
 
@@ -16,6 +16,6 @@ For purposes of the foregoing, "Sell" means practicing any or all of the rights 
 For purposes of this license:
 - "Software" means the Deployment System software
 - "Licensor" means the owners and contributors to the Deployment System
-- "License" means the AGPL-3.0
+- "License" means the Apache License 2.0
 
 This license applies to all parts of the Deployment System that are not externally maintained libraries. 
