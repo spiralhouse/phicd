@@ -1,17 +1,18 @@
-# Deployment System
+# PhiCD
 
-A robust, scalable deployment system for managing application deployments across multiple environments.
+A powerful continuous delivery tracking system that measures key performance indicators across your development pipeline, providing actionable insights to help teams deliver software faster and more reliably.
 
 ## Overview
 
-This system provides a comprehensive solution for managing deployments of applications from development through to production environments, with support for various deployment strategies and robust security controls.
+PhiCD is part of SpiralHouse's suite of open-source tools dedicated to enhancing the developer experience. It helps engineering teams measure, understand, and improve their software delivery performance by tracking DORA metrics (Deployment Frequency, Lead Time for Changes, Mean Time to Restore, and Change Failure Rate) and identifying specific areas for improvement.
 
 ## Features
 
-- Multi-environment deployment pipeline
-- Blue/green and canary deployment strategies
-- Rollback capabilities
-- Integration with CI/CD pipelines
+- Comprehensive DORA metrics tracking and visualization
+- Multi-environment deployment pipeline monitoring
+- Deployment strategy analysis (blue/green, canary)
+- Rollback tracking and impact assessment
+- CI/CD pipeline integration
 - Configuration management
 - Robust security controls
 - Comprehensive monitoring and logging
@@ -25,6 +26,23 @@ Detailed documentation can be found in the [docs](./docs) directory:
 - [Security Model](./docs/technical/security-model.md)
 - [Integration Guide](./docs/guides/integration-guide.md)
 - [Operations Guide](./docs/guides/operations-guide.md)
+
+## License
+
+This software is released under the Apache License 2.0 with Commons Clause.
+
+### What You Can Do
+- ✅ Use the software freely in your business
+- ✅ Deploy internally in your organization
+- ✅ View and modify the source code
+- ✅ Share your modifications
+- ✅ Use our software to run your business operations
+
+### What You Cannot Do
+- ❌ Sell the software
+- ❌ Offer the software as a commercial managed service
+- ❌ Resell hosted or cloud versions
+- ❌ Commercially distribute the software
 
 ## Development Status
 
@@ -57,10 +75,6 @@ Types include:
 - `chore`: Routine tasks, maintenance, etc.
 
 Breaking changes must be indicated with `!` or `BREAKING CHANGE:` in the footer.
-
-## License
-
-[MIT](LICENSE)
 
 ## Development Setup
 
