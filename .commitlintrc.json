@@ -4,7 +4,7 @@
     ],
     "rules": {
         "type-enum": [
-            2,
+            1,
             "always",
             [
                 "build",
@@ -21,25 +21,29 @@
             ]
         ],
         "subject-case": [
-            2,
+            1,
             "always",
             [
+                "lower-case",
+                "upper-case",
                 "sentence-case",
-                "lower-case"
+                "start-case",
+                "pascal-case",
+                "camel-case"
             ]
         ],
         "body-max-line-length": [
-            2,
+            1,
             "always",
             100
         ],
         "header-max-length": [
-            2,
+            1,
             "always",
             72
         ],
         "subject-full-stop": [
-            2,
+            1,
             "never",
             "."
         ]
